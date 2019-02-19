@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="79316a5b-3830-4b23-b20f-14fe20dec92e" name="dev" url="http://ec2-13-250-106-126.ap-southeast-1.compute.amazonaws.com">
+        <fileTransfer host="ec2-13-250-106-126.ap-southeast-1.compute.amazonaws.com" port="22" privateKey="C:\Users\thomas.yau\Downloads\20190218.ppk" rootFolder="/var/www/html/dev/blog" accessType="SFTP" username="webadmin" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
