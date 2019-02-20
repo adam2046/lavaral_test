@@ -10,11 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-    return view('welcome');
+    $submits = \App\Submit::all();
+    return view('welcome')->with('submits' , $submits );
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('application', 'SubmitController');
