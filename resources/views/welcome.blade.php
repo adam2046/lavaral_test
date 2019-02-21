@@ -60,9 +60,12 @@
                         </table>
                     @else
                         <p> You are not Admin so you are not permitted to view the submission record.</p>
+                        <p> Please logout and submit test to Wemine.</p>
                      @endif
                 @else
-                    <p> You are not permitted to view the submission record. Please Log in. </p>
+                    <h2>Welcome to Application System for Full Stack Web Developer in Wemine</h2>
+                    <img src=" {{ asset("image/programminglanguages-620x290.jpg") }}" style="width:100%;" alt="image">
+                    <p> Please click <a href="{{ route('application.index') }}">here</a> to start submitting the application test to Wemine! </p>
                 @endif
             </div>
         </div>

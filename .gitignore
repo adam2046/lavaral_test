@@ -5,6 +5,7 @@
 /vendor
 /.idea
 /.idea/workspace.xml
+.idea/*
 .env
 .phpunit.result.cache
 Homestead.json
